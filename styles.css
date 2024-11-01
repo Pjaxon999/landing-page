@@ -12,21 +12,58 @@ body {
 
 header {
     background-color: #1F2937;
+    font-size: 18px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 0 100px;
     display: flex;
     align-items: baseline;
     gap: 12px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    color:#f9Faf8
 }
 
 li.logo {
     margin-right: auto;
     font-size: 24px;
     color: #f9Faf8
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px;
+    color: #e5e7eb;
+}
+
+.herocontent {
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: auto;
+    padding-right: 20px;
+}
+
+.herocontent button {
+    width: 100px;
+    padding: 6px;
+    border: solid 0;
+    border-radius: 5px;
+    color: #e5e7eb;
+    background-color: #3882F6;
 }
 
 .images {
