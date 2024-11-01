@@ -13,12 +13,13 @@ body {
 header {
     background-color: #1F2937;
     font-size: 18px;
+    padding-top: 20px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 100px;
+    margin: 0 150px;
     display: flex;
     align-items: baseline;
     gap: 12px;
@@ -29,6 +30,12 @@ ul a {
     color: #e5e7eb;
 }
 
+li.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9Faf8
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
@@ -36,17 +43,18 @@ h1 {
     color:#f9Faf8
 }
 
-li.logo {
-    margin-right: auto;
-    font-size: 24px;
-    color: #f9Faf8
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
 }
 
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px 100px;
+    margin: 150px 150px;
     color: #e5e7eb;
 }
 
@@ -67,7 +75,24 @@ li.logo {
 }
 
 .images {
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    margin: 0px 150px 75px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin: 10px 20px;
+}
+
+.images img {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
 }
 
 .quote {
